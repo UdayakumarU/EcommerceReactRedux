@@ -32,5 +32,19 @@
       margin-left: auto;
       font-size: 36px;
     }
+    .payment{
+      width: 100%;
+      .test-warning{
+        margin-top: 40px;
+        color:red;
+        font-size: 22px;
+        text-align: center;
+      }
+      .pay-now{
+        float:right;
+        margin-top: 20px;
+      }
+    }
+    
   }
   
