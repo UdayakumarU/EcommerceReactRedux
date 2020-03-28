@@ -1,0 +1,16 @@
+body{
+    font-family: 'Barlow Condensed';
+    padding: 20px 40px;
+    @media screen and (max-width: 800px) {
+        padding: 10px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+
+*{
+    box-sizing: border-box;
+}

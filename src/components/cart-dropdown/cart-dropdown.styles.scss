@@ -10,6 +10,9 @@
   display: flex;
   flex-direction: column;
   z-index: 5;
+  @media screen and (max-width: 800px) {
+    right: 30px;
+  }
   .cart-items {
     height: 240px;
     margin-bottom: 10px;

@@ -1,7 +1,12 @@
 .sign-in-and-sign-up{
-
  width : 850px;
  display: flex;
  justify-content: space-between;
  margin : 30px auto;
+    @media screen and (max-width:800px){
+        width : auto;
+        display: grid;
+        grid-row-gap: 15vw;
+        justify-content: space-around;
+     }
 }
